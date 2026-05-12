@@ -1,0 +1,162 @@
+{
+  "evaluation": [
+    {
+      "algorithm": "MEME",
+      "dataset": "TATA-box (Yeast)",
+      "information_content": 9.14,
+      "sensitivity": 0.7875,
+      "ppv": 0.7875,
+      "f1": 0.7875,
+      "nCC": 0.7875,
+      "site_accuracy": 0.9,
+      "n_correct_sites": 18,
+      "n_predicted": 20,
+      "n_true": 20
+    },
+    {
+      "algorithm": "Gibbs",
+      "dataset": "TATA-box (Yeast)",
+      "information_content": 10.662,
+      "sensitivity": 0.7875,
+      "ppv": 0.7875,
+      "f1": 0.7875,
+      "nCC": 0.7875,
+      "site_accuracy": 0.9,
+      "n_correct_sites": 18,
+      "n_predicted": 20,
+      "n_true": 20
+    },
+    {
+      "algorithm": "MEME",
+      "dataset": "E-box (MYC)",
+      "information_content": 4.923,
+      "sensitivity": 0.75,
+      "ppv": 0.75,
+      "f1": 0.75,
+      "nCC": 0.75,
+      "site_accuracy": 0.75,
+      "n_correct_sites": 15,
+      "n_predicted": 20,
+      "n_true": 20
+    },
+    {
+      "algorithm": "Gibbs",
+      "dataset": "E-box (MYC)",
+      "information_content": 9.85,
+      "sensitivity": 0.8,
+      "ppv": 0.8,
+      "f1": 0.8,
+      "nCC": 0.8,
+      "site_accuracy": 0.8,
+      "n_correct_sites": 16,
+      "n_predicted": 20,
+      "n_true": 20
+    },
+    {
+      "algorithm": "MEME",
+      "dataset": "NF-kB",
+      "information_content": 9.425,
+      "sensitivity": 0.612,
+      "ppv": 0.612,
+      "f1": 0.612,
+      "nCC": 0.612,
+      "site_accuracy": 0.68,
+      "n_correct_sites": 17,
+      "n_predicted": 25,
+      "n_true": 25
+    },
+    {
+      "algorithm": "Gibbs",
+      "dataset": "NF-kB",
+      "information_content": 11.535,
+      "sensitivity": 0.764,
+      "ppv": 0.764,
+      "f1": 0.764,
+      "nCC": 0.764,
+      "site_accuracy": 0.76,
+      "n_correct_sites": 19,
+      "n_predicted": 25,
+      "n_true": 25
+    },
+    {
+      "algorithm": "MEME",
+      "dataset": "Zinc Finger",
+      "information_content": 6.132,
+      "sensitivity": 0.1833,
+      "ppv": 0.1833,
+      "f1": 0.1833,
+      "nCC": 0.1833,
+      "site_accuracy": 0.2667,
+      "n_correct_sites": 8,
+      "n_predicted": 30,
+      "n_true": 30
+    },
+    {
+      "algorithm": "Gibbs",
+      "dataset": "Zinc Finger",
+      "information_content": 8.159,
+      "sensitivity": 0.0,
+      "ppv": 0.0,
+      "f1": 0.0,
+      "nCC": 0.0,
+      "site_accuracy": 0.0,
+      "n_correct_sites": 0,
+      "n_predicted": 30,
+      "n_true": 30
+    }
+  ],
+  "comparison": [
+    {
+      "dataset": "TATA-box (Yeast)",
+      "MEME": {
+        "ic": 9.140416295976976,
+        "time": 2.3096632957458496,
+        "consensus": "TTATATAA"
+      },
+      "Gibbs": {
+        "ic": 10.662416455857786,
+        "time": 2.9808294773101807,
+        "consensus": "TTATATAA"
+      }
+    },
+    {
+      "dataset": "E-box (MYC)",
+      "MEME": {
+        "ic": 4.923290786930382,
+        "time": 1.3566255569458008,
+        "consensus": "CACGTG"
+      },
+      "Gibbs": {
+        "ic": 9.850485603115954,
+        "time": 1.7819013595581055,
+        "consensus": "CACGTG"
+      }
+    },
+    {
+      "dataset": "NF-kB",
+      "MEME": {
+        "ic": 9.424735216623821,
+        "time": 4.335717678070068,
+        "consensus": "CGGGACTTTC"
+      },
+      "Gibbs": {
+        "ic": 11.534612374201707,
+        "time": 5.627136468887329,
+        "consensus": "GGGACTTTCC"
+      }
+    },
+    {
+      "dataset": "Zinc Finger",
+      "MEME": {
+        "ic": 6.13244729187298,
+        "time": 5.220082759857178,
+        "consensus": "GCGGCGTG"
+      },
+      "Gibbs": {
+        "ic": 8.159203981072451,
+        "time": 6.560134649276733,
+        "consensus": "CAACCAAC"
+      }
+    }
+  ]
+}

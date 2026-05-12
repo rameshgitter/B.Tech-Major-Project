@@ -1,0 +1,98 @@
+{
+  "source": "JASPAR CORE (https://jaspar.elixir.no)",
+  "api_version": "v1",
+  "fetched": "2026-04-20",
+  "datasets": [
+    {
+      "matrix_id": "MA0001.1",
+      "name": "AGL3",
+      "width": 10,
+      "consensus": "CCATAAATAG",
+      "species": "Arabidopsis thaliana",
+      "tax_group": "plants",
+      "type": "SELEX",
+      "pubmed": "7632923",
+      "family": "MADS box factors",
+      "n_sequences": 30,
+      "fasta": "/home/claude/motif_discovery/data/raw/jaspar_MA0001.1_AGL3.fasta"
+    },
+    {
+      "matrix_id": "MA0265.1",
+      "name": "ABF1",
+      "width": 16,
+      "consensus": "TCGTATAAAGTGATAA",
+      "species": "Saccharomyces cerevisiae",
+      "tax_group": "fungi",
+      "type": "PBM/DIP-chip",
+      "pubmed": "19111667",
+      "family": "bHLH (Tal-related)",
+      "n_sequences": 30,
+      "fasta": "/home/claude/motif_discovery/data/raw/jaspar_MA0265.1_ABF1.fasta"
+    },
+    {
+      "matrix_id": "MA0266.1",
+      "name": "ABF2",
+      "width": 7,
+      "consensus": "CTCTAGA",
+      "species": "Saccharomyces cerevisiae",
+      "tax_group": "fungi",
+      "type": "PBM",
+      "pubmed": "19111667",
+      "family": "HMG domain",
+      "n_sequences": 30,
+      "fasta": "/home/claude/motif_discovery/data/raw/jaspar_MA0266.1_ABF2.fasta"
+    },
+    {
+      "matrix_id": "MA0266.2",
+      "name": "ABF2_v2",
+      "width": 6,
+      "consensus": "TCTAGA",
+      "species": "Saccharomyces cerevisiae",
+      "tax_group": "fungi",
+      "type": "PBM",
+      "pubmed": "19111667",
+      "family": "HMG domain",
+      "n_sequences": 30,
+      "fasta": "/home/claude/motif_discovery/data/raw/jaspar_MA0266.2_ABF2_v2.fasta"
+    },
+    {
+      "matrix_id": "MA0570.1",
+      "name": "ABF1_plant",
+      "width": 19,
+      "consensus": "GGACACGTGGCACGACGGG",
+      "species": "Arabidopsis thaliana",
+      "tax_group": "plants",
+      "type": "SELEX",
+      "pubmed": "10636868",
+      "family": "bZIP Group A",
+      "n_sequences": 30,
+      "fasta": "/home/claude/motif_discovery/data/raw/jaspar_MA0570.1_ABF1_plant.fasta"
+    },
+    {
+      "matrix_id": "MA0941.1",
+      "name": "ABF2_Arabidopsis",
+      "width": 13,
+      "consensus": "CATGACACGTGTT",
+      "species": "Arabidopsis thaliana",
+      "tax_group": "plants",
+      "type": "PBM",
+      "pubmed": "11005831",
+      "family": "bZIP Group A",
+      "n_sequences": 30,
+      "fasta": "/home/claude/motif_discovery/data/raw/jaspar_MA0941.1_ABF2_Arabidopsis.fasta"
+    },
+    {
+      "matrix_id": "MA0930.1",
+      "name": "ABF3",
+      "width": 8,
+      "consensus": "ACACGTGT",
+      "species": "Arabidopsis thaliana",
+      "tax_group": "plants",
+      "type": "PBM",
+      "pubmed": "11005831",
+      "family": "bZIP Group A",
+      "n_sequences": 30,
+      "fasta": "/home/claude/motif_discovery/data/raw/jaspar_MA0930.1_ABF3.fasta"
+    }
+  ]
+}
