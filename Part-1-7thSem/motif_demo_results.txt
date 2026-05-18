@@ -1,0 +1,16 @@
+Best k: 5
+Score (total mismatches): 0
+Consensus: TAGCA
+
+Motifs (one per sequence):
+TAGCA
+TAGCA
+TAGCA
+TAGCA
+TAGCA
+TAGCA
+TAGCA
+TAGCA
+TAGCA
+TAGCA
+TAGCA
